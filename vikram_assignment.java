@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class vikram_assignment
 {
-
+// updated send keys
 	public static void main(String[] args) throws InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver","E:\\SELENIUM FILES\\chromedriver.exe");	
@@ -17,7 +17,7 @@ public class vikram_assignment
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("saurabh bidkar");
+		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("bidkar");
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//input[@class='gNO89b']")).click();
